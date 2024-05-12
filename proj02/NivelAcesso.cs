@@ -10,11 +10,11 @@ namespace proj02
         public NivelAcesso(string descricao, List<string> permissoes)
         {
             Descricao = descricao;
-            Permissoes = permissoes;
+            Permissoes = permissoes; // Sugestão João ==> Permissoes = new List<string> ();
         }
 
         public void DefinicaoLista(){
-            
+            // 0 = excluir;
         }
 
         public int GerarNivel(Cargo cargo){

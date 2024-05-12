@@ -31,10 +31,10 @@ namespace proj02
 
         }
 
-        public override string ToString()
-        {
-            return "[ produto:  " + this.Produto + ", quantidade: " + this.Quantidade + 
-                ", cliente: " + this.Cliente + ", numeroNf" + this.NumeroNf + " ] "; 
-        }
+        // public override string ToString()
+        // {
+        //     return "[ produto:  " + this.Produto + ", quantidade: " + this.Quantidade + 
+        //         ", cliente: " + this.Cliente + ", numeroNf" + this.NumeroNf + " ] "; 
+        // }
     } 
 }
