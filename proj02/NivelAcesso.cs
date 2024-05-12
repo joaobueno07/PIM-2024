@@ -12,5 +12,13 @@ namespace proj02
             Descricao = descricao;
             Permissoes = permissoes;
         }
+
+        public void DefinicaoLista(){
+            
+        }
+
+        public int GerarNivel(Cargo cargo){
+            return permissao;
+        }
     }
 }

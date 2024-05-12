@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantechApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268826d8377ff2dbbbd8787cfe77ae801d29cad1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45ab2fd09939788007a42f49dc9c70f4883604e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlantechApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantechApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

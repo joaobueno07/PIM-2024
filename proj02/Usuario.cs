@@ -12,9 +12,12 @@ namespace proj02
         public DateTime DataNascimento { get; set; }
         public string Endereco { get; set; }
         public string Telefone { get; set; }
+        public NivelAcesso nivelAcesso { get; set; }
 
-        public Usuario(string nome, string email, string senha, NivelAcesso nivelAcesso, DateTime dataNascimento, string endereco, string telefone)
+
+        public Usuario(string nome, string email, string senha, NivelAcesso nivelAcesso, DateTime dataNascimento, string endereco, string telefone, NivelAcesso nivelAcesso)
         {
+<<<<<<< Updated upstream
             Nome = nome;
             Email = email;
             Senha = senha;
@@ -26,17 +29,23 @@ namespace proj02
 
         // Método para realizar o cadastro de um usuário
         public void Cadastro()
-        {
-            // Aqui você pode implementar a lógica para salvar os dados do usuário em algum lugar, como um banco de dados
-
-            Console.WriteLine("O usuario: " + Nome + "Com Email: " + Email + " Contato: " + Telefone + " Foi cadastrado com sucesso!");
+=======
+            this.Nome = nome;
+            this.Email = email;
+            this.Senha = senha;
+            this.NivelAcesso = nivelAcesso;
+            this.DataNascimento = dataNascimento;
+            this.Endereco = endereco;
+            this.Telefone = telefone;
+            this.NivelAcesso = nivelAcesso;
+            
         }
 
-        // Método para realizar o login de um usuário
-        public void Login()
+        public void Login( string email, string senha)
+>>>>>>> Stashed changes
         {
-            // Aqui você pode implementar a lógica para verificar as credenciais do usuário e permitir o login
-            Console.WriteLine("Login realizado com sucesso!");
+
+            // Console.WriteLine("Login realizado com sucesso!");
         }
     }
 }
