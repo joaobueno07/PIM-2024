@@ -15,16 +15,15 @@ namespace proj02
 
         public Usuario(string nome, string email, string senha, NivelAcesso nivelAcesso, DateTime dataNascimento, string endereco, string telefone)
         {
-            Nome = nome;
-            Email = email;
-            Senha = senha;
-            NivelAcesso = nivelAcesso;
-            DataNascimento = dataNascimento;
-            Endereco = endereco;
-            Telefone = telefone;
+            this.Nome = nome;
+            this.Email = email;
+            this.Senha = senha;
+            this.NivelAcesso = nivelAcesso;
+            this.DataNascimento = dataNascimento;
+            this.Endereco = endereco;
+            this.Telefone = telefone;
         }
 
-        // Método para realizar o cadastro de um usuário
         public void Cadastro()
         {
             // Aqui você pode implementar a lógica para salvar os dados do usuário em algum lugar, como um banco de dados

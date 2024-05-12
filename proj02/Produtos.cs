@@ -1,0 +1,21 @@
+﻿namespace proj02{
+
+    public class Produtos : Item{
+
+        public string Nome { get; set; }
+        public string Descricao { get; set; }
+        public double PrecoVenda { get; set; }
+        public string Tipo { get; set; }
+        public double CustoCompra { get; set; }
+        public date DataValidade { get; set; }
+        
+        public Produtos (string nome, string descricacao, double precoVenda, string tipo, double custoCompra, date dataValidade) : base (Quantidade, Valor){
+            this.Nome = nome;
+            this.Descricao = descricacao;
+            this.PrecoVenda = precoVenda;
+            this.Tipo = tipo;
+            this.CustoCompra = custoCompra;
+            this.DataValidade = dataValidade;
+        }
+    }
+}

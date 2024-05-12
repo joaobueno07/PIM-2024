@@ -9,8 +9,8 @@ namespace proj02
 
         public NivelAcesso(string descricao, List<string> permissoes)
         {
-            Descricao = descricao;
-            Permissoes = permissoes;
+            this.Descricao = descricao;
+            this.Permissoes = permissoes;
         }
     }
 }
