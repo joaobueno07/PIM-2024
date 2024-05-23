@@ -12,6 +12,8 @@ namespace proj02
             this.Status = status;
             this.Descricao = descricao;
             this.Salario = salario;
+            // Console.WriteLine(descricao);
         }
+ 
     } 
 }

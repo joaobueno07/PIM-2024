@@ -9,10 +9,10 @@
         public string Email { get; set; }
         public bool Status { get; set; }
         
-        public Empresa (string razaoSocial, string cnpj, string tefone, string endereco, string email, bool status){
+        public Empresa (string razaoSocial, string cnpj, string telefone, string endereco, string email, bool status){
             this.RazaoSocial = razaoSocial;
             this.Cnpj = cnpj;
-            this.Telefone = tefone;
+            this.Telefone = telefone;
             this.Endereco = endereco;
             this.Email = email;
             this.Status = status;

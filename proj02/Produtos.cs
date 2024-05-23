@@ -9,7 +9,7 @@
         public double CustoCompra { get; set; }
         public DateTime DataValidade { get; set; }
         
-        public Produtos (string nome, string descricacao, double precoVenda, string tipo, double custoCompra, DateTime dataValidade) : base (quantidade, valor){
+        public Produtos (string nome, string descricacao, double precoVenda, string tipo, double custoCompra, DateTime dataValidade, int quantidade, double valor) : base (quantidade, valor){
             this.Nome = nome;
             this.Descricao = descricacao;
             this.PrecoVenda = precoVenda;

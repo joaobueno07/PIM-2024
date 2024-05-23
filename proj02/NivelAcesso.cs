@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace proj02
 {
     // Definição da classe NivelUsuario
@@ -6,19 +8,29 @@ namespace proj02
     {
         public string Descricao { get; set; }
         public List<string> Permissoes { get; set; }
+        // public Cargo cargo { get; set; }
 
         public NivelAcesso(string descricao, List<string> permissoes)
         {
             Descricao = descricao;
-            Permissoes = permissoes; // Sugestão João ==> Permissoes = new List<string> ();
+            Permissoes = permissoes ?? new List<string>(); 
         }
 
-        public void DefinicaoLista(){
-            // 0 = excluir;
-        }
+        public int GerarNivel(Cargos cargo){
 
-        public int GerarNivel(Cargo cargo){
-            return permissao;
+            switch (cargo.Descricao.ToLower())
+            {
+                case "dono":
+                    return 0;
+                case "administrativo":
+                    return 1;
+                case "agricultor":
+                    return 2;
+                case "vendedor":
+                    return 3;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(cargo), "Cargo inválido");
+            }
         }
     }
 }

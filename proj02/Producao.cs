@@ -6,12 +6,12 @@ namespace proj02
     public class Producao{
 
         public string Lote { get; set; }
-        public Date DataInicio {get; set;}
-        public Date DataTermino {get; set;}
-        public Date DataRelatorio {get; set;}
+        public DateTime DataInicio {get; set;}
+        public DateTime DataTermino {get; set;}
+        public DateTime DataRelatorio {get; set;}
         public Funcionario Agricultor {get; set;}
 
-        public Producao (string lote, Date dataInicio, Date dataTermino, Date dataRelatorio, Funcionario agricultor){
+        public Producao (string lote, DateTime dataInicio, DateTime dataTermino, DateTime dataRelatorio, Funcionario agricultor){
             this.Lote = lote;
             this.DataInicio = dataInicio;
             this.DataTermino = dataTermino;

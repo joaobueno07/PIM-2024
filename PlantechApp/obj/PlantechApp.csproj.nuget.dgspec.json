@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gi\\Documents\\GitHub\\PIM-2024\\PlantechApp\\PlantechApp.csproj": {}
+    "C:\\Users\\Dorcas Chagas\\Desktop\\PIM-2024\\PlantechApp\\PlantechApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gi\\Documents\\GitHub\\PIM-2024\\PlantechApp\\PlantechApp.csproj": {
+    "C:\\Users\\Dorcas Chagas\\Desktop\\PIM-2024\\PlantechApp\\PlantechApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gi\\Documents\\GitHub\\PIM-2024\\PlantechApp\\PlantechApp.csproj",
+        "projectUniqueName": "C:\\Users\\Dorcas Chagas\\Desktop\\PIM-2024\\PlantechApp\\PlantechApp.csproj",
         "projectName": "PlantechApp",
-        "projectPath": "C:\\Users\\Gi\\Documents\\GitHub\\PIM-2024\\PlantechApp\\PlantechApp.csproj",
-        "packagesPath": "C:\\Users\\Gi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gi\\Documents\\GitHub\\PIM-2024\\PlantechApp\\obj\\",
+        "projectPath": "C:\\Users\\Dorcas Chagas\\Desktop\\PIM-2024\\PlantechApp\\PlantechApp.csproj",
+        "packagesPath": "C:\\Users\\Dorcas Chagas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dorcas Chagas\\Desktop\\PIM-2024\\PlantechApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dorcas Chagas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

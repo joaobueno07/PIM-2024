@@ -6,9 +6,13 @@ namespace proj02
     {
         public double Valor { get; set; }
 
-        public bool EfetuarPagamento(NotaFiscal dadosNf)
-        {
-
+        public Pagamento(double valor){
+            Valor = valor;
         }
+
+        // public bool EfetuarPagamento(NotaFiscal dadosNf)
+        // {
+
+        // }
     }
 }

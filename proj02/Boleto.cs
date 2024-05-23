@@ -11,7 +11,7 @@ namespace proj02
         public string Destinatario { get; set; }
         public string Remetente { get; set; }
 
-        public Boleto (long numero, int parcelas, string razaoSocial, string endereco, string destinatario, string remetente) : base(dadosNf){
+        public Boleto (long numero, int parcelas, string razaoSocial, string endereco, string destinatario, string remetente, double valor) : base(valor){
             this.Numero = numero;
             this.Parcelas = parcelas;
             this.RazaoSocial = razaoSocial;

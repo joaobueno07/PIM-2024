@@ -7,7 +7,7 @@ namespace proj02
         public string Chave { get; set; }
         public string Nome { get; set; }
 
-        public Pix (string chave, string nome) : base(dadosNf){
+        public Pix (string chave, string nome, double valor) : base(valor){
             this.Chave = chave;
             this.Nome = nome;
         }

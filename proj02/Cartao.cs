@@ -7,7 +7,7 @@ namespace proj02
         public long Numero { get; set; }
         public string Bandeira { get; set; }
 
-        public Cartao (long numero, string bandeira) : base(dadosNf){
+        public Cartao (long numero, string bandeira, double valor) : base(valor){
             this.Numero = numero;
             this.Bandeira = bandeira;
         }

@@ -8,8 +8,9 @@ namespace proj02
         public string SenhaBackDoor { get; set; }
         public string NumeroCarteira { get; set; }
 
-        public Funcionario (strinf numeroCarteira) : base (nome, email, senha, nivelAcesso, dataNascimento, endereco, telefone, nivelAcesso){
+        public Funcionario (string senhaBackDoor, string numeroCarteira, string nome, string email, string senha, NivelAcesso nivelAcesso, DateTime dataNascimento, string endereco, string telefone, Cargos cargo) : base (nome, email, senha, nivelAcesso, dataNascimento, endereco, telefone, cargo){
             this.NumeroCarteira = numeroCarteira;
+            this.SenhaBackDoor = senhaBackDoor;
         }
 
         // public void Cadastro(string nome, string email, string senha, NivelAcesso nivelAcesso, DateTime dataNascimento, string endereco, string telefone, NivelAcesso nivelAcesso)

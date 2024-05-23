@@ -6,14 +6,14 @@ namespace proj02
     {
         public string Comprador { get; set; }
         
-        public NfCompra (string comprador) : base( produto, quantidade, cliente, numeroNf)
+        public NfCompra (string comprador, string numeroNf,  DateTime dataPedido,  Cliente cliente,  double valorTot,  string status,  Pagamento formasPagamento,  Produtos produto,  int quantidade) : base( numeroNf, dataPedido, cliente, valorTot, status, formasPagamento, produto, quantidade)
         {
             this.Comprador = comprador;
         }
 
-        public void AcompanharStatus(){
+        // public void AcompanharStatus(){
 
-        }
+        // }
 
         
     } 
